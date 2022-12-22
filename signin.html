@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in| Amazon</title>
+    <link rel="stylesheet" href="./signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signIn-image">
+            <img src="./login-illustration.png" alt="">
+
+        </div>
+        <div class="signIn">
+            <h2>Sign in to Amazon</h2>
+            <div class="input">
+                <input type="text" placeholder="Enter the Email" id="email">
+                <div id="email-warning" class="warning"></div>
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Enter the Password" id="password">
+                <div id="password-warning" class="warning"></div>
+            </div>
+            <div class="forgotpassword">
+                <p>Forgot password?</p>
+            </div>
+            <div class="button" onclick="login()">Login</div>
+
+            <div id="success" class="msg"></div>
+            <div id="comment" class="msg"></div>
+            
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

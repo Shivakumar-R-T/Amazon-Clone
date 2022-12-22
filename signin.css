@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ,'sans-sarif';
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+   flex-direction: row;
+}
+.signIn-image{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.signIn-image img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+.signIn{
+    width: 50%;
+    background-color: #f0b762;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.signIn h2{
+    margin-bottom: 10px;
+    text-shadow:0px 0px 10px rgba(0, 0, 0, 0.5) ;
+}
+.signIn input{
+    width: 300px;
+    margin: 10px;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+.signIn .forgotpassword{
+    color: rgb(90, 90, 211);
+    font-size: 15px;
+    padding-left: 185px;
+    cursor: pointer;
+}
+.signIn p:hover{
+    color: blue;
+}
+.signIn .button{
+color: white;
+background-color: #ffa41c;
+width: 300px;
+font-size: 18px;
+padding: 8px;
+border-radius: 10px;
+border: none;
+
+text-align: center;
+margin-top: 10px;
+cursor: pointer;
+
+}
+.signIn .button:hover{
+    color: black;
+    background-color: #f39406;
+}
+
+.signIn .warning{
+    color: red;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.signIn .msg{
+    margin: 10px;
+}
+.signIn #success{
+    color: green;
+}
+.signIn #comment{
+    color: blue;
+}
